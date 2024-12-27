@@ -1,177 +1,97 @@
-# Quantum Resource Allocation Platform (QRAP)
+# NeuroNet: Decentralized Neurofeedback & BCI Marketplace
 
-A decentralized platform for democratizing access to quantum computing resources through tokenized time units and smart contract-based resource allocation.
+A blockchain-based platform enabling secure neurofeedback training, brain-computer interface applications trading, and tokenized mental performance tracking.
 
 ## Overview
 
-QRAP enables efficient sharing and optimization of quantum computing resources across multiple providers and users. The platform implements a token-based system for quantum computing time allocation, automated job scheduling, and a decentralized marketplace for trading quantum resources.
+NeuroNet creates a decentralized ecosystem for neurofeedback practitioners, BCI developers, and users to safely share brain activity data, access personalized training programs, and trade specialized applications. The platform emphasizes data privacy, scientific validation, and reward-based engagement.
 
-## Key Features
+## Core Features
 
-### Tokenized Quantum Computing Units (QCUs)
+### Secure Brain Activity Data Management
 
-- ERC-20 compliant tokens representing standardized quantum computing time units
-- Dynamic pricing based on quantum hardware specifications and availability
-- Automatic conversion between different quantum hardware architectures
-- Built-in slippage protection for resource allocation
+- End-to-end encryption for all neurological data
+- Zero-knowledge proofs for anonymous data sharing
+- Federated learning systems for pattern recognition
+- Compliant with HIPAA and GDPR requirements
+- Granular access control for research and analysis
 
-### Smart Contract Resource Management
+### Smart Contract Training Programs
 
-- Automated job scheduling and priority queue management
-- Fair-sharing algorithms for resource distribution
-- Real-time monitoring of quantum hardware utilization
-- Conflict resolution mechanisms for overlapping resource requests
+- Automated neurofeedback protocol execution
+- Dynamic difficulty adjustment based on performance
+- Real-time brain activity monitoring and analysis
+- Integration with multiple BCI hardware devices
+- Customizable training parameters and goals
 
-### Decentralized Marketplace
+### BCI Application Marketplace
 
-- Order book system for matching buyers and sellers
-- Automated price discovery mechanism
-- Liquidity pools for instant resource access
-- Secondary market for unused quantum computing time
+- Peer-to-peer trading of BCI applications
+- Quality assurance through community validation
+- Version control and update management
+- Revenue sharing for collaborative development
+- Integration testing and compatibility verification
 
-### Hardware Provider Integration
+### Performance-Based Token System
 
-- Standardized API for quantum hardware integration
-- Support for major quantum computing providers:
-    - IBM Quantum
-    - Google Quantum AI
-    - IonQ
-    - Rigetti
-- Automatic quality-of-service monitoring
-- Cross-platform job translation
+- ERC-20 compliant NeuroTokens (NRT)
+- Achievement-based reward distribution
+- Stake-based access to premium features
+- Community governance participation
+- Training program completion incentives
 
 ## Technical Architecture
 
-### Core Components
+### Data Layer
 
-1. Blockchain Layer
-    - Ethereum-based smart contracts
-    - Layer 2 scaling solution for reduced transaction costs
-    - Quantum resource tokenization logic
-    - Market mechanics implementation
+1. Brain Activity Storage
+    - Distributed IPFS storage
+    - Encrypted data chunks
+    - Temporal compression
+    - Multi-format support
 
-2. Resource Management Layer
-    - Job scheduler
-    - Priority queue manager
-    - Resource optimizer
-    - Performance monitor
+2. Access Control
+    - Identity management
+    - Permission matrices
+    - Audit logging
+    - Key management
 
-3. Integration Layer
-    - Hardware provider adapters
-    - API gateway
-    - Authentication service
-    - Cross-platform compiler
+### Application Layer
 
-4. User Interface Layer
-    - Web interface for resource trading
-    - Job submission portal
-    - Analytics dashboard
-    - Account management
+1. Training Module
+    - Protocol executor
+    - Performance analyzer
+    - Progress tracker
+    - Visualization engine
+
+2. Marketplace
+    - Application registry
+    - Payment processor
+    - Review system
+    - Developer tools
+
+### Integration Layer
+
+1. Hardware Support
+    - OpenBCI compatibility
+    - Neurosity integration
+    - Muse interface
+    - Custom device SDK
+
+2. External Systems
+    - Healthcare APIs
+    - Research databases
+    - Payment gateways
+    - Analytics services
 
 ## Installation
 
 ```bash
-# Clone the repository
-git clone https://github.com/your-org/qrap
+# Clone repository
+git clone https://github.com/your-org/neuronet
 
 # Install dependencies
-cd qrap
+cd neuronet
 npm install
 
-# Configure environment
-cp .env.example .env
-# Edit .env with your configuration
-
-# Start the platform
-npm run start
-```
-
-## Configuration
-
-Create a `.env` file with the following parameters:
-
-```
-ETHEREUM_NETWORK=mainnet
-INFURA_API_KEY=your_infura_key
-QUANTUM_PROVIDERS_CONFIG=config/providers.json
-DATABASE_URL=postgresql://user:password@localhost:5432/qrap
-```
-
-## Usage
-
-### Token Management
-
-```javascript
-// Initialize QCU token contract
-const qcuToken = await QCUToken.deploy(initialSupply);
-
-// Purchase quantum computing time
-await qcuToken.purchase(timeUnits, {value: purchasePrice});
-
-// Schedule quantum computing job
-await scheduler.submitJob(jobSpecification, qcuAmount);
-```
-
-### Market Interaction
-
-```javascript
-// Place sell order
-await market.createSellOrder(qcuAmount, pricePerUnit);
-
-// Place buy order
-await market.createBuyOrder(qcuAmount, maxPricePerUnit);
-```
-
-## Development
-
-### Prerequisites
-
-- Node.js v16+
-- Hardhat
-- PostgreSQL 13+
-- Python 3.8+ (for quantum interface)
-
-### Testing
-
-```bash
-# Run unit tests
-npm run test
-
-# Run integration tests
-npm run test:integration
-
-# Run quantum provider tests
-npm run test:quantum
-```
-
-## Security
-
-- Smart contracts audited by Quantstamp
-- Regular security assessments
-- Bug bounty program available
-- Multi-signature requirement for critical operations
-
-## Contributing
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
-
-## Contact
-
-- Project Team: team@qrap.io
-- Discord: [QRAP Community](https://discord.gg/qrap)
-- Twitter: [@QRAPProject](https://twitter.com/QRAPProject)
-
-## Acknowledgments
-
-- Quantum computing providers
-- Ethereum Foundation
-- Open-source quantum computing community
-- Research partners and early adopters
+# Set up
