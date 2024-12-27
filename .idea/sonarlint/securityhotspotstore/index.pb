@@ -9,3 +9,5 @@ N
 contracts/bci-marketplace.clar,7/0/70b438f91d63fbb599417e911fff8ddf81946e34
 M
 tests/bci-marketplace.test.ts,e/6/e689fafc6fa4886a80553c07463c6a588a3e842f
+Q
+!contracts/neuro-reward-token.clar,9/2/92126c4ffd89a82b26000f65151cb3ac7d5bd701
