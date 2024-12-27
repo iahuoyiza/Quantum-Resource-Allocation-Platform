@@ -1,0 +1,34 @@
+[project]
+name = 'Quantum-Resource-Allocation-Platform'
+description = ''
+authors = []
+telemetry = true
+cache_dir = './.cache'
+requirements = []
+[contracts.bci-marketplace]
+path = 'contracts/bci-marketplace.clar'
+clarity_version = 2
+epoch = 2.5
+
+[contracts.brain-data-storage]
+path = 'contracts/brain-data-storage.clar'
+clarity_version = 2
+epoch = 2.5
+
+[contracts.neuro-reward-token]
+path = 'contracts/neuro-reward-token.clar'
+clarity_version = 2
+epoch = 2.5
+
+[contracts.neurofeedback-training]
+path = 'contracts/neurofeedback-training.clar'
+clarity_version = 2
+epoch = 2.5
+[repl.analysis]
+passes = ['check_checker']
+
+[repl.analysis.check_checker]
+strict = false
+trusted_sender = false
+trusted_caller = false
+callee_filter = false
