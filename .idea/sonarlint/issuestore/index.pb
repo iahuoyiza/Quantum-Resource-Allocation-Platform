@@ -13,3 +13,7 @@ Q
 !contracts/neuro-reward-token.clar,9/2/92126c4ffd89a82b26000f65151cb3ac7d5bd701
 P
  tests/neuro-reward-token.test.ts,e/5/e550733ce20be6574edcdf2136f26a7df55d7d12
+U
+%contracts/neurofeedback-training.clar,c/d/cde1b8e9535df7a14c205852ea2f5209c0bced02
+T
+$tests/neurofeedback-training.test.ts,8/3/8309c6bc7dcfbc59f9dbd44d50404b6a43214c06
