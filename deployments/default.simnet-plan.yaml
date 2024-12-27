@@ -64,4 +64,9 @@ plan:
             emulated-sender: ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM
             path: contracts/neuro-reward-token.clar
             clarity-version: 2
+        - emulated-contract-publish:
+            contract-name: neurofeedback-training
+            emulated-sender: ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM
+            path: contracts/neurofeedback-training.clar
+            clarity-version: 2
       epoch: "2.5"
