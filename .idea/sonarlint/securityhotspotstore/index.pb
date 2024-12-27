@@ -7,3 +7,5 @@ P
  tests/brain-data-storage.test.ts,c/8/c81e01f7f42f125f5d9db685f008292c2141cb72
 N
 contracts/bci-marketplace.clar,7/0/70b438f91d63fbb599417e911fff8ddf81946e34
+M
+tests/bci-marketplace.test.ts,e/6/e689fafc6fa4886a80553c07463c6a588a3e842f
